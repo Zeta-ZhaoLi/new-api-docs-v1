@@ -1,5 +1,6 @@
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import { baseOptions, linkItems } from '@/lib/layout.shared';
+import { Footer } from '@/components/footer';
 
 export default async function Layout({
   params,
@@ -12,12 +13,15 @@ export default async function Layout({
   const base = baseOptions(lang);
 
   return (
-    <HomeLayout
-      {...base}
-      links={[...(base.links || []), ...linkItems]}
-      className="dark:bg-neutral-950 dark:[--color-fd-background:var(--color-neutral-950)]"
-    >
-      {children}
-    </HomeLayout>
+    <div className="flex min-h-screen flex-col">
+      <HomeLayout
+        {...base}
+        links={[...(base.links || []), ...linkItems]}
+        className="flex-1 dark:bg-neutral-950 dark:[--color-fd-background:var(--color-neutral-950)]"
+      >
+        {children}
+      </HomeLayout>
+      <Footer lang={lang} />
+    </div>
   );
 }
