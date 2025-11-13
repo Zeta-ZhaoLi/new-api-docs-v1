@@ -1,6 +1,8 @@
 {
-  "title": "接口文档",
+  "title": "API Reference",
+  "description": "Complete API documentation and reference",
   "icon": "Code",
+  "root": true,
   "pages": [
     "---Relay API---",
     "openai-chat",

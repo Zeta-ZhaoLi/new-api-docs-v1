@@ -1,5 +1,17 @@
 {
   "title": "使用ガイド",
+  "description": "クイックスタートと基本的な使用法のチュートリアル",
   "icon": "BookOpen",
-  "pages": ["home", "console", "pricing", "document", "about"]
+  "root": true,
+  "pages": [
+    "---はじめに---",
+    "../index",
+    "../getting-started",
+    "---機能ガイド---",
+    "home",
+    "console",
+    "pricing",
+    "document",
+    "about"
+  ]
 }

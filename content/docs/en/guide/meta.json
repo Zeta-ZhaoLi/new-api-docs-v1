@@ -1,5 +1,17 @@
 {
   "title": "User Guide",
+  "description": "Quick start and basic usage tutorials",
   "icon": "BookOpen",
-  "pages": ["home", "console", "pricing", "document", "about"]
+  "root": true,
+  "pages": [
+    "---Getting Started---",
+    "../index",
+    "../getting-started",
+    "---Feature Guides---",
+    "home",
+    "console",
+    "pricing",
+    "document",
+    "about"
+  ]
 }

@@ -1,5 +1,17 @@
 {
   "title": "使用指南",
+  "description": "快速开始和基础使用教程",
   "icon": "BookOpen",
-  "pages": ["home", "console", "pricing", "document", "about"]
+  "root": true,
+  "pages": [
+    "---快速开始---",
+    "../index",
+    "../getting-started",
+    "---功能指南---",
+    "home",
+    "console",
+    "pricing",
+    "document",
+    "about"
+  ]
 }

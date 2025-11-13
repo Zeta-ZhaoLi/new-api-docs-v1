@@ -1,10 +1,13 @@
 {
   "title": "Help & Support",
+  "description": "FAQs and community support",
   "icon": "Headset",
+  "root": true,
   "pages": [
     "faq",
     "community-interaction",
     "feedback-issues",
-    "buy-us-a-coffee"
+    "buy-us-a-coffee",
+    "../business-cooperation"
   ]
 }

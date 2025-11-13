@@ -1,6 +1,8 @@
 {
-  "title": "APIドキュメント",
+  "title": "APIリファレンス",
+  "description": "完全なAPIドキュメントとリファレンス",
   "icon": "Code",
+  "root": true,
   "pages": [
     "---リレーAPI---",
     "openai-chat",

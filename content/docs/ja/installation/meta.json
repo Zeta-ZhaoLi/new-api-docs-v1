@@ -1,12 +1,17 @@
 {
-  "title": "インストールガイド",
+  "title": "インストールとセットアップ",
+  "description": "インストールとシステム設定",
   "icon": "Wrench",
+  "root": true,
   "pages": [
+    "---インストール---",
     "docker-compose-installation",
     "docker-installation",
     "1panel-installation",
     "bt-docker-installation",
     "cluster-deployment",
-    "local-development"
+    "local-development",
+    "---設定---",
+    "...configuration"
   ]
 }

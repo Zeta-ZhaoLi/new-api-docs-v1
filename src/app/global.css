@@ -5,14 +5,20 @@
 
 @theme {
   --spacing-fd-container: 1436px;
-  --color-brand: hsl(217, 91%, 60%);
-  --color-brand-foreground: white;
-  --color-brand-secondary: hsl(217, 91%, 70%);
-  --color-brand-secondary-foreground: hsl(217, 91%, 20%);
-  --color-brand-200: hsl(217, 91%, 80%);
 
-  --color-landing-foreground: #2c3e50;
-  --color-landing-foreground-200: #7f8c8d;
+  /* 粉色主题色 */
+  --color-brand: hsl(330, 70%, 55%);
+  --color-brand-foreground: white;
+  --color-brand-secondary: hsl(340, 75%, 65%);
+  --color-brand-secondary-foreground: hsl(330, 60%, 20%);
+  --color-brand-200: hsl(330, 65%, 75%);
+
+  /* Fumadocs UI 主题色 (用于导航、TOC等) */
+  --color-fd-primary: hsl(330, 70%, 55%);
+  --color-fd-primary-foreground: white;
+
+  --color-landing-foreground: #5c3a4a;
+  --color-landing-foreground-200: #a87b8b;
 
   /* System fonts */
   --font-sans:
@@ -24,14 +30,19 @@
 }
 
 .dark {
-  --color-landing-foreground: #ecf0f1;
-  --color-landing-foreground-200: #bdc3c7;
+  --color-landing-foreground: #f5e0ea;
+  --color-landing-foreground-200: #e0b8d0;
 
-  --color-brand: hsl(217, 91%, 70%);
-  --color-brand-secondary: hsl(217, 91%, 80%);
-  --color-brand-secondary-foreground: hsl(217, 91%, 10%);
+  /* 粉色主题色 (暗模式) */
+  --color-brand: hsl(330, 85%, 70%);
+  --color-brand-secondary: hsl(340, 80%, 75%);
+  --color-brand-secondary-foreground: hsl(330, 60%, 10%);
   --color-brand-foreground: black;
-  --color-brand-200: hsl(217, 91%, 85%);
+  --color-brand-200: hsl(330, 80%, 85%);
+
+  /* Fumadocs UI 主题色 (用于导航、TOC等 - 暗模式) */
+  --color-fd-primary: hsl(330, 85%, 70%);
+  --color-fd-primary-foreground: black;
 }
 
 @theme inline {

@@ -1,12 +1,17 @@
 {
-  "title": "Installation Guide",
+  "title": "Installation & Setup",
+  "description": "Installation and system configuration",
   "icon": "Wrench",
+  "root": true,
   "pages": [
+    "---Installation---",
     "docker-compose-installation",
     "docker-installation",
     "1panel-installation",
     "bt-docker-installation",
     "cluster-deployment",
-    "local-development"
+    "local-development",
+    "---Configuration---",
+    "...configuration"
   ]
 }

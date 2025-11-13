@@ -1,6 +1,8 @@
 {
-  "title": "AI应用",
+  "title": "AI Applications",
+  "description": "Supported AI applications and integrations",
   "icon": "Sparkles",
+  "root": true,
   "pages": [
     "cherry-studio",
     "claude-code",

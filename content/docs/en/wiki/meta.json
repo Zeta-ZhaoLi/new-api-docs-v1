@@ -1,6 +1,8 @@
 {
   "title": "Wiki",
+  "description": "Project introduction and technical documentation",
   "icon": "BookMarked",
+  "root": true,
   "pages": [
     "project-introduction",
     "features-introduction",

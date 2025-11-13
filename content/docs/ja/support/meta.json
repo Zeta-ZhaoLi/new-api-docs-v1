@@ -1,10 +1,13 @@
 {
   "title": "ヘルプとサポート",
+  "description": "よくある質問とコミュニティサポート",
   "icon": "Headset",
+  "root": true,
   "pages": [
     "faq",
     "community-interaction",
     "feedback-issues",
-    "buy-us-a-coffee"
+    "buy-us-a-coffee",
+    "../business-cooperation"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "title": "AI应用",
+  "title": "AIアプリケーション",
+  "description": "サポートされているAIアプリケーションと統合",
   "icon": "Sparkles",
+  "root": true,
   "pages": [
     "cherry-studio",
     "claude-code",

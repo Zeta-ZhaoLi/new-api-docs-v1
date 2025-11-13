@@ -21,14 +21,6 @@ export default async function Layout({
       links={linkItems.filter((item) => item.type === 'icon')}
       sidebar={{
         defaultOpenLevel: 0,
-        banner: (
-          <div className="bg-fd-primary/10 text-fd-primary border-fd-primary/20 mb-2 rounded-lg border px-4 py-3 text-sm">
-            <p className="mb-1 font-semibold">📚 Documentation</p>
-            <p className="text-fd-muted-foreground text-xs">
-              Enterprise-grade AI Gateway & API Orchestration Platform
-            </p>
-          </div>
-        ),
         tabs: {
           transform(option, node) {
             if (!node.icon) return option;
