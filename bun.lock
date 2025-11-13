@@ -4,6 +4,8 @@
     "": {
       "name": "new-api-docs-v1",
       "dependencies": {
+        "@orama/orama": "^3.1.16",
+        "@orama/tokenizers": "^3.1.16",
         "@paper-design/shaders-react": "^0.0.63",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
@@ -181,6 +183,8 @@
     "@next/swc-win32-x64-msvc": ["@next/swc-win32-x64-msvc@16.0.1", "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.0.1.tgz", { "os": "win32", "cpu": "x64" }, "sha512-XeEUJsE4JYtfrXe/LaJn3z1pD19fK0Q6Er8Qoufi+HqvdO4LEPyCxLUt4rxA+4RfYo6S9gMlmzCMU2F+AatFqQ=="],
 
     "@orama/orama": ["@orama/orama@3.1.16", "https://registry.npmmirror.com/@orama/orama/-/orama-3.1.16.tgz", {}, "sha512-scSmQBD8eANlMUOglxHrN1JdSW8tDghsPuS83otqealBiIeMukCQMOf/wc0JJjDXomqwNdEQFLXLGHrU6PGxuA=="],
+
+    "@orama/tokenizers": ["@orama/tokenizers@3.1.16", "https://registry.npmmirror.com/@orama/tokenizers/-/tokenizers-3.1.16.tgz", { "dependencies": { "@orama/orama": "3.1.16" } }, "sha512-QLYWlcFNs3G2ikJJewxSsC/JSz3Ltz5uZED1yAubhMg5Vk3jG/3P4UkDYt5SzuimkQYwYnHXVGlw93ZzsP+M0w=="],
 
     "@paper-design/shaders": ["@paper-design/shaders@0.0.63", "https://registry.npmmirror.com/@paper-design/shaders/-/shaders-0.0.63.tgz", {}, "sha512-e7HF0x7D/vilCqoM/Ed2vYyL51Aj1Y5S5z1OSlMWvhchpeveRziiLJFK5NHk48UDVQJoqvVf/vBNjO6/Ah60Bg=="],
 

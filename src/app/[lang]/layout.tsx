@@ -1,6 +1,6 @@
-import { RootProvider } from 'fumadocs-ui/provider/next';
 import { defineI18nUI } from 'fumadocs-ui/i18n';
 import { i18n } from '@/lib/i18n';
+import { Provider } from '@/components/provider';
 import '../global.css';
 import type { Metadata } from 'next';
 import { createMetadata, baseUrl } from '@/lib/metadata';
@@ -9,11 +9,9 @@ const { provider } = defineI18nUI(i18n, {
   translations: {
     en: {
       displayName: 'English',
-      name: 'English',
     },
     zh: {
       displayName: '简体中文',
-      name: '简体中文',
       search: '搜索文档',
       searchNoResult: '没有结果',
       toc: '目录',
@@ -26,7 +24,6 @@ const { provider } = defineI18nUI(i18n, {
     },
     ja: {
       displayName: '日本語',
-      name: '日本語',
       search: 'ドキュメントを検索',
       searchNoResult: '結果が見つかりません',
       toc: '目次',
@@ -127,5 +124,5 @@ export default async function RootLayout({
 }) {
   const lang = (await params).lang;
 
-  return <RootProvider i18n={provider(lang)}>{children}</RootProvider>;
+  return <Provider i18n={provider(lang)}>{children}</Provider>;
 }
